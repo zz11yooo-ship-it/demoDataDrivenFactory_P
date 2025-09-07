@@ -13,6 +13,6 @@
             - setHeader:
                 name: "Content-Type"
                 constant: "application/json"
-            - to: "http://host.containers.internal:8088/receive"
+            - to: "http://host.containers.internal:8080/receive"
             - log:
                 message: "📤 送信: ${body}"
